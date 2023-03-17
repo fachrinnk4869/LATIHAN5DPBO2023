@@ -1,5 +1,5 @@
 ## Janji
-Saya Fachri Najm Noer Kartiman NIM 2106515 mengerjakan soal Latihan 4
+Saya Fachri Najm Noer Kartiman NIM 2106515 mengerjakan soal Latihan 5
 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahanNya
 maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan.
 Aamiin.
