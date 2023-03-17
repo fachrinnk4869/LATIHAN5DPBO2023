@@ -12,20 +12,27 @@ Download this starter project: [Starter Project](https://drive.google.com/file/d
 * Add confirmation prompt before delete
 * Build project (generate .jar file)
 
-
 File README berisi desain program, penjelasan alur, dan dokumentasi saat program dijalankan (screenshot/screen record)
 
 Submit link repository pada form berikut: [Form Pengumpulan](https://forms.gle/rvb1hKxbQVuYNbhKA) 
 
 ## Desain Program
-Desain yang saya buat menggunakan 2 Class:
+Desain yang saya buat menggunakan 1 Class Utama:
 * Mahasiswa
+* Menu
 
 `Class Mahasiswa` :
 * **NIM** -> NIM mahasiswa, `string`
 * **Nama** -> Nama mahasiswa, `string`
 * **Nilai** -> Nilai mahasiswa, `string`
 * **gender** -> Gender mahasiswa, `string`
+
+`Class Menu` :
+* **Set Tabel** -> Mengeset Tabel untuk ditampilkan, `void`
+* **Insert Data** -> Menambah data, `void`
+* **Update Data** -> mengubah data yang dipilih, `void`
+* **Delete Data** -> menghapus data yang dipilih, `void`
+* **Reset Form** -> Mereset Form, `void`
 
 _Semua Class diatas dilengkapi dengan setter dan getternya_
 
@@ -35,14 +42,22 @@ _Semua Class diatas dilengkapi dengan setter dan getternya_
 
 ## Alur Program Program GUI
 
+Text field untuk mengisi data yang berisi nim, nama, nilai dan radio button untuk memilih gender mahasiswa
 
+Mengisi text field dan memlih gender jika di klik `add` maka akan menambah data dan seluruh data akan ditampilkan di tabel
+
+Mengisi text field dan memlih gender jika di klik `Cancel` maka TextField akan kosong
+
+Memilih data jika ada data yang ingin dirubah maka rubah di text field nya atau gender radio button jika sudah maka klik `update`
+
+Memilih data jika ada data yang ingin dihapus jika sudah maka klik `delete`
 
 ## Dokumentasi
 **JAR FILE**
 
 ![JAR FILE](jar-file.png)
 
-**Conform Delete**
+**Confirm Delete**
 ![Screenshot 2023-03-17 091422](https://user-images.githubusercontent.com/92314386/225795247-c63588f5-dc34-4781-9fc3-ee32bde74b70.png)
 
 **Update Data**
