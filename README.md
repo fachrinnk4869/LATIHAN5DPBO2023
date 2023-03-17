@@ -41,3 +41,11 @@ _Semua Class diatas dilengkapi dengan setter dan getternya_
 **JAR FILE**
 
 ![JAR FILE](jar-file.png)
+
+**Conform Delete**
+![Screenshot 2023-03-17 091422](https://user-images.githubusercontent.com/92314386/225795247-c63588f5-dc34-4781-9fc3-ee32bde74b70.png)
+
+**Update Data**
+
+![image](https://user-images.githubusercontent.com/92314386/225795139-feaef12f-4d59-4941-a108-e91bc4f8921e.png)
+
